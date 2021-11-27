@@ -4,7 +4,7 @@
     "module": "ESNext",
     "outDir": "./build",
     "rootDir": "./src",
-    "strict": true,
+    "strict": false,
     "esModuleInterop": true,
     "moduleResolution": "Node",
 
@@ -16,5 +16,5 @@
     "skipLibCheck": false,
     "forceConsistentCasingInFileNames": true
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "commands"]
 }
